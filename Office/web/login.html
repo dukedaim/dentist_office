@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login: Dentist Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1 class="heading">Login</h1>
+    <p><a href="./index.html">Go Back</a></p>
+        <div class="content">
+        <form action="http://localhost:8080/DentistOffice/LoginServlet">
+            <fieldset class="login-fs">
+                <label for="username">Username: <input type="text" id="username" name="username" autocomplete="off" required></label>
+                <label for="password">Password: <input type="password" id="password" name="password" required></label>
+                <button id="submit" type="submit">Login</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

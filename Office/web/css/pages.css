@@ -1,0 +1,129 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* STYLING
+ * Daimyan T
+ * 4/16/2024
+ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset {
+    border: none;
+}
+
+.header {
+    font-size: 2em;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.container {
+    background: hsl(101, 55%, 81%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    width: 65%;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.info {
+    font-size: 1.2em;
+}
+
+.info-box {
+    width: 250px;
+    margin: 15px 0px;
+    background: hsl(101, 55%, 75%);
+    padding: 8px;
+    border: 1px double #fff;
+    border-radius: 5px;
+}
+
+.info-box.bigger {
+    width: 415px;
+    text-align: center;
+}
+
+.info-box p {
+    margin: 0;
+}
+
+.info-box ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.update-form {
+    width: 250px;
+}
+
+.update-form label {
+    display: block;
+}
+
+.update-form #firstName, .update-form #lastName, .update-form #address, .update-form #email, .update-form #insCo {
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+    margin-top: 3.5px;
+}
+
+.center input {
+    margin: 0;
+}
+
+#appointDate, #time, #dentist, #procedure {
+    width: 100%;
+}
+
+#toggle-button {
+    margin: 10px 0;
+}
+
+.apt-table {
+    width: 700px;
+    border-collapse: collapse;
+}
+
+.table-data {
+    border: 2px solid black;
+    padding: 8px 16px;
+}
+
+button, #submit {
+    padding: 4px 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background:hsl(101, 55%, 64%);
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover, #submit:hover {
+    background: hsl(101, 55%, 55%);
+}
+
+.container.footer {
+    padding: 20px;
+}

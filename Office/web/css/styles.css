@@ -1,0 +1,66 @@
+/* STYLING
+ * Daimyan T
+ * 4/16/2024
+ */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.heading {
+    font-size: 2em;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+.login-link {
+    text-decoration: none;
+    background: hsl(101, 55%, 75%);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.content {
+    background: hsl(101, 55%, 81%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-fs {
+    border: 2px solid white;
+    padding: 10px 15px;
+    width: 250px;
+}
+
+.login-fs label {
+    margin-bottom: 8px;
+}
+
+.login-fs input {
+    background: hsl(101, 55%, 75%);
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none; 
+    border-bottom: 2px solid white;
+}
+
+#submit {
+    padding: 4px 16px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    background:hsl(101, 55%, 64%);
+    border-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.login-link:hover, #submit:hover, .login-fs input:hover {
+    background: hsl(101, 55%, 55%);
+}
